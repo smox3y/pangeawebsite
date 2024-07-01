@@ -3,12 +3,12 @@ import {
   FlagIcon,
   MapIcon,
   SparklesIcon,
-} from '@heroicons/react/24/outline';
+} from "@heroicons/react/24/outline";
 
-import InstagramIcon from '../components/Icon/InstagramIcon';
-import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import heroImage from '../images/header-background.webp';
-import profilepic from '../images/profilepic.jpg';
+import InstagramIcon from "../components/Icon/InstagramIcon";
+import LinkedInIcon from "../components/Icon/LinkedInIcon";
+import heroImage from "../images/header-background.webp";
+import profilepic from "../images/profilepic.jpg";
 import {
   About,
   ContactSection,
@@ -16,14 +16,13 @@ import {
   Hero,
   HomepageMeta,
   Social,
-
-} from './dataDef';
+} from "./dataDef";
 
 /**
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
+  title: "React Resume Template",
   description: "Example site built with Tim Baker's react resume template",
 };
 
@@ -31,14 +30,14 @@ export const homePageMeta: HomepageMeta = {
  * Section definition
  */
 export const SectionId = {
-  Hero: 'hero',
-  About: 'about',
-  Contact: 'contact',
-  Portfolio: 'portfolio',
-  Resume: 'resume',
-  Skills: 'skills',
-  Stats: 'stats',
-  Testimonials: 'testimonials',
+  Hero: "hero",
+  About: "about",
+  Contact: "contact",
+  Portfolio: "portfolio",
+  Resume: "resume",
+  Skills: "skills",
+  Stats: "stats",
+  Testimonials: "testimonials",
 } as const;
 
 export type SectionId = (typeof SectionId)[keyof typeof SectionId];
@@ -52,14 +51,17 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Welcome to the <strong className="text-stone-100">PANGEA VISION</strong>, where our mission is<strong className="text-stone-100">TO ACCELERATE HUMANITY</strong> and mankind.
+        Welcome to the <strong className="text-stone-100">PANGEA VISION</strong>
+        , where our mission is
+        <strong className="text-stone-100">TO ACCELERATE HUMANITY</strong> and
+        mankind.
       </p>
     </>
   ),
   actions: [
     {
-      href: 'https://calendly.com/thealexroa/meeting-with-alex',
-      text: 'Schedule A Meeting',
+      href: "https://calendly.com/thealexroa/meeting-with-alex",
+      text: "Schedule A Meeting",
       primary: false,
     },
   ],
@@ -73,11 +75,27 @@ export const aboutData: About = {
   description: `Pangea, Inc: Accelerating Humanity & Mankind
   Our mission is to develop accessible, inclusive, and innovative solutions using today's resources to advance society and create the industries of tomorrow. We aspire to unify the world through an increasingly interconnected global economy, codenamed Pangea.`,
   aboutItems: [
-    { label: 'Location', text: 'Houston, Texas Area', Icon: MapIcon },
-    { label: 'Mission', text: 'Accelerating Humanity & Mankind', Icon: AcademicCapIcon },
-    { label: 'Culture, Media, and Money', text: 'The Culture Club / Culture Club Media Commerce / BlitzPay', Icon: SparklesIcon },
-    { label: 'Industry, Farming, and Food', text: 'Rahra Co / Protein Party Co', Icon: SparklesIcon },
-    { label: 'Philanthropy', text: 'Hope United / Roa Foundation', Icon: FlagIcon },
+    { label: "Location", text: "Houston, Texas Area", Icon: MapIcon },
+    {
+      label: "Mission",
+      text: "Accelerating Humanity & Mankind",
+      Icon: AcademicCapIcon,
+    },
+    {
+      label: "Culture, Media, and Money",
+      text: "The Culture Club / Culture Club Media Commerce / BlitzPay",
+      Icon: SparklesIcon,
+    },
+    {
+      label: "Industry, Farming, and Food",
+      text: "Rahra Co / Protein Party Co",
+      Icon: SparklesIcon,
+    },
+    {
+      label: "Philanthropy",
+      text: "Hope United / Roa Foundation",
+      Icon: FlagIcon,
+    },
   ],
 };
 
@@ -114,19 +132,20 @@ export const missionData = missionDetails;
  */
 
 export const contact: ContactSection = {
-  headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  headerText: "Get in touch.",
+  description:
+    "Here is a good spot for a message to your readers to let them know how best to reach out to you.",
   items: [
     {
       type: ContactType.Email,
-      text: 'alex@thecultureclub.us',
-      href: 'mailto:alex@thecultureclub.us',
+      text: "alex@thecultureclub.us",
+      href: "mailto:alex@thecultureclub.us",
     },
-   
+
     {
       type: ContactType.Instagram,
-      text: '@thealexroa',
-      href: 'https://www.instagram.com/thealexroa/',
+      text: "@thealexroa",
+      href: "https://www.instagram.com/thealexroa/",
     },
   ],
 };
@@ -135,6 +154,14 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/thealexroa/' },
-  { label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/thealxroa/' },
+  {
+    label: "LinkedIn",
+    Icon: LinkedInIcon,
+    href: "https://www.linkedin.com/in/thealexroa/",
+  },
+  {
+    label: "Instagram",
+    Icon: InstagramIcon,
+    href: "https://www.instagram.com/thealxroa/",
+  },
 ];
