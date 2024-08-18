@@ -1,21 +1,9 @@
-import {
-  AcademicCapIcon,
-  FlagIcon,
-  MapIcon,
-  SparklesIcon
-} from "@heroicons/react/24/outline";
+import { AcademicCapIcon, FlagIcon, MapIcon, SparklesIcon } from "@heroicons/react/24/outline";
 import InstagramIcon from "../components/Icon/InstagramIcon";
 import LinkedInIcon from "../components/Icon/LinkedInIcon";
 import heroImage from "../images/header-background.webp";
 import profilepic from "../images/profilepic.jpg";
-import {
-  About,
-  ContactSection,
-  ContactType,
-  Hero,
-  HomepageMeta,
-  Social
-} from "./dataDef";
+import { About, ContactSection, ContactType, Hero, HomepageMeta, Social } from "./dataDef";
 
 /**
  * Page meta data
@@ -63,6 +51,7 @@ export const heroData: Hero = {
     },
   ],
 };
+
 /**
  * About section
  */
@@ -126,11 +115,9 @@ export const missionData = missionDetails;
 /**
  * Contact section
  */
-
 export const contact: ContactSection = {
   headerText: "Get in touch.",
-  description:
-    "Here is a good spot for a message to your readers to let them know how best to reach out to you.",
+  description: "Here is a good spot for a message to your readers to let them know how best to reach out to you.",
   items: [
     {
       type: ContactType.Email,
