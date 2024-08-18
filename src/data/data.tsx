@@ -2,7 +2,7 @@ import {
   AcademicCapIcon,
   FlagIcon,
   MapIcon,
-  SparklesIcon,
+  SparklesIcon
 } from "@heroicons/react/24/outline";
 
 import InstagramIcon from "../components/Icon/InstagramIcon";
@@ -15,7 +15,7 @@ import {
   ContactType,
   Hero,
   HomepageMeta,
-  Social,
+  Social
 } from "./dataDef";
 
 /**
@@ -66,6 +66,7 @@ export const heroData: Hero = {
     },
   ],
 };
+
 /**
  * About section
  */
