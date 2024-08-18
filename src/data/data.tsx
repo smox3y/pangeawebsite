@@ -51,10 +51,8 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Welcome to the <strong className="text-stone-100">PANGEA VISION</strong>
-        , where our mission is
-        <strong className="text-stone-100">TO ACCELERATE HUMANITY</strong> and
-        mankind.
+        Welcome to the <strong className="text-stone-100">PANGEA VISION</strong>, where our mission is
+        <strong className="text-stone-100">TO ACCELERATE HUMANITY</strong> and mankind.
       </p>
     </>
   ),
@@ -141,7 +139,6 @@ export const contact: ContactSection = {
       text: "alex@thecultureclub.us",
       href: "mailto:alex@thecultureclub.us",
     },
-
     {
       type: ContactType.Instagram,
       text: "@thealexroa",
