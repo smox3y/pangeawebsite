@@ -1,8 +1,8 @@
 import classNames from "classnames";
 import Image from "next/image";
-import { FC, memo } from "react";
+import {FC, memo} from "react";
 
-import { aboutData, missionData, SectionId } from "../../data/data";
+import {aboutData, missionData, SectionId} from "../../data/data";
 import Section from "../Layout/Section";
 
 const About: FC = memo(() => {
