@@ -52,7 +52,7 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         Welcome to the <strong className="text-stone-100">PANGEA VISION</strong>, where our mission is
-        <strong className="text-stone-100">TO ACCELERATE HUMANITY</strong> and mankind.
+        <strong className="text-stone-100"> TO ACCELERATE HUMANITY</strong> and mankind.
       </p>
     </>
   ),
