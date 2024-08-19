@@ -72,7 +72,7 @@ export const aboutData: About = {
   description: `Pangea, Inc: Accelerating Humanity & Mankind
   Our mission is to develop accessible, inclusive, and innovative solutions using today's resources to advance society and create the industries of tomorrow. We aspire to unify the world through an increasingly interconnected global economy, codenamed Pangea.`,
   aboutItems: [
-    { label: "Location", text: "Houston, Texas Area", Icon: MapIcon },
+    {label: "Location", text: "Houston, Texas Area", Icon: MapIcon},
     {
       label: "Mission",
       text: "Accelerating Humanity & Mankind",
