@@ -4,10 +4,12 @@ import {
   MapIcon,
   SparklesIcon,
 } from "@heroicons/react/24/outline";
+
 import InstagramIcon from "../components/Icon/InstagramIcon";
 import LinkedInIcon from "../components/Icon/LinkedInIcon";
 import heroImage from "../images/header-background.webp";
 import profilepic from "../images/profilepic.jpg";
+
 import {
   About,
   ContactSection,
