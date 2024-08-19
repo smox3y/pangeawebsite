@@ -2,7 +2,6 @@ import dynamic from 'next/dynamic';
 import {FC, memo} from 'react';
 
 import Page from '../components/Layout/Page';
-import About from '../components/Sections/About';
 import Hero from '../components/Sections/Hero';
 import {homePageMeta} from '../data/data';
 
