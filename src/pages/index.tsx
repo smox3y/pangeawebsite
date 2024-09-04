@@ -1,10 +1,10 @@
 import dynamic from 'next/dynamic';
-import { FC, memo } from 'react';
+import {FC, memo} from 'react';
 
 import About from '../components/Sections/About';
 import Hero from '../components/Sections/Hero';
 import Page from '../components/Layout/Page';
-import { homePageMeta } from '../data/data';
+import {homePageMeta} from '../data/data';
 
 // eslint-disable-next-line react-memo/require-memo
 const Header = dynamic(() => import('../components/Sections/Header'), { ssr: false });
