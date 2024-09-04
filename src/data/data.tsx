@@ -68,18 +68,18 @@ export const aboutData: About = {
       Icon: AcademicCapIcon,
     },
     {
-      label: 'Culture, Media, and Money',
-      text: 'The Culture Club / Culture Club Media Commerce / BlitzPay',
+      label: 'Culture, New Media, and Impact',
+      text: 'The Culture Club / Culture Club Media Commerce',
       Icon: SparklesIcon,
     },
     {
-      label: 'Industry, Farming, and Food',
-      text: 'Rahra Co / Protein Party Co',
+      label: 'Data, Creative, and Money',
+      text: 'Blitz',
       Icon: SparklesIcon,
     },
     {
-      label: 'Philanthropy',
-      text: 'Hope United / Roa Foundation',
+      label: 'Productivity, Automation, AI',
+      text: 'MYAH AI',
       Icon: FlagIcon,
     },
   ],
@@ -99,16 +99,39 @@ const missionDetails = `
     - Inspiring global culture with inclusivity at our core, giving every background, culture, and story an equal playing field.
   - **BlitzPay.pro:** Advancing financial equity for creators and gig workers by accelerating payment processes.
   - **Alito Champion Conversational AI:** Enhancing the deal flow process for creators, increasing brand deal revenue by 5-10x.
+
+  ### Blitz
+  - Blitz is a software tool designed to make digital collaborations seamless, including payouts, campaigns, and fan-engagement efforts.
+  - Users have access to the unlimited Culture Club Creator roster and can create unlimited campaign lists, find rates, and launch campaigns through the software.
+  - Blitz simplifies the Accounts Payable process for enterprise clients by initiating payouts to global contractors and entertainers, and offering a line of credit for creators to get paid within 24 hours via PayPal or Stripe.
+  - Internally, Blitz enables the Culture Club team to manage campaigns, send offers via SMS & email, and automate invoicing for clients.
+
+  ### MYAH AI
+  MYAH is an integrated technology designed to enhance human productivity by automating mundane administrative tasks and adapting to users' preferences based on context.
+
+  - **Current Project Techstack**
+    - React.Js Front end
+    - Python Backend
+    - Language models
+    - Postgresql database
+    - Github Repository
   
-  ### Industry, Farming, and Food
-  - **Rahra Co / Protein Party Co**
-    - Creating the future of food in collaboration with the Heartland team.
-    - Providing climate-conscious food solutions that are healthier, more affordable, and more accessible.
+  - **Project Layout:**
+    - Email and SMS automation
+    - User context framework
+    - Google calendar integration
   
-  ### Philanthropy
-  - **Hope United / Roa Foundation**
-    - Hope United: Dedicated to unifying communities through philanthropic efforts.
-    - Roa Foundation: Supporting global initiatives to foster a better, more connected world.
+  - **Conversations workflow and storage:**
+    - Inherit email convos using Gmail API to pull all emails and store them by unique threads.
+    - LLM to read emails, attach labels internally (spam, respond, don't respond).
+    - Email draft confirmed via SMS.
+  
+  - **Inherit SMS prompts:**
+    - Routing SMS based on user type and context.
+    - Store conversation channels as the primary thread between MYAH and the user.
+  
+  - **Opt-in Workflow:**
+    - Users are invited via SMS and must consent to SMS messaging for customer care and security reasons.
 `;
 
 export const missionData = missionDetails;
