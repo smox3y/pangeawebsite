@@ -14,8 +14,9 @@ const Home: FC = memo(() => {
   return (
     <Page description={description} title={title}>
       <Header />
-      <About />
       <Hero />
+      <About />
+
     </Page>
   );
 });
