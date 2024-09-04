@@ -57,7 +57,6 @@ export const heroData: Hero = {
  * About section
  */
 export const aboutData: About = {
-  profileImageSrc: profilepic,
   description: `Pangea, Inc: Accelerating Humanity & Mankind
   Our mission is to develop accessible, inclusive, and innovative solutions using today's resources to advance society and create the industries of tomorrow. We aspire to unify the world through an increasingly interconnected global economy, codenamed Pangea.`,
   aboutItems: [
@@ -97,8 +96,6 @@ const missionDetails = `
     - Lowering barriers to entry, bringing social and financial equity to creators.
     - Monetizing the middle class of creators at scale with our influencer network and data collection technologies.
     - Inspiring global culture with inclusivity at our core, giving every background, culture, and story an equal playing field.
-  - **BlitzPay.pro:** Advancing financial equity for creators and gig workers by accelerating payment processes.
-  - **Alito Champion Conversational AI:** Enhancing the deal flow process for creators, increasing brand deal revenue by 5-10x.
 
   ### Blitz
   - Blitz is a software tool designed to make digital collaborations seamless, including payouts, campaigns, and fan-engagement efforts.
