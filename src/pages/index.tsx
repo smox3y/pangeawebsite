@@ -3,6 +3,7 @@ import {FC, memo} from 'react';
 
 import Page from '../components/Layout/Page';
 import Hero from '../components/Sections/Hero';
+import About from '../components/Sections/About';
 import {homePageMeta} from '../data/data';
 
 // eslint-disable-next-line react-memo/require-memo
@@ -13,7 +14,9 @@ const Home: FC = memo(() => {
   return (
     <Page description={description} title={title}>
       <Header />
+      <About />
       <Hero />
+
     </Page>
   );
 });
