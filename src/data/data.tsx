@@ -57,7 +57,17 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   description: `Pangea, Inc: Accelerating Humanity & Mankind
-  Our mission is to develop accessible, inclusive, and innovative solutions using today's resources to advance society and create the industries of tomorrow. We aspire to unify the world through an increasingly interconnected global economy, codenamed Pangea.`,
+
+Our mission is to develop accessible, inclusive, and innovative solutions using today's resources to advance society and create the industries of tomorrow. We aspire to unify the world through an increasingly interconnected global economy, codenamed Pangea.
+
+Culture, New Media, and Impact:
+The Culture Club / Culture Club Media Commerce
+
+Data, Creative, and Money:
+Blitz
+
+Productivity, Automation, AI:
+MYAH AI`,
   aboutItems: [
     {label: 'Location', text: 'Houston, Texas Area', Icon: MapIcon},
     {
@@ -82,6 +92,7 @@ export const aboutData: About = {
     },
   ],
 };
+
 
 /**
  * Detailed Mission and Focus Areas

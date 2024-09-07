@@ -12,7 +12,7 @@ export const headerID = 'headerNav';
 const Header: FC = memo(() => {
   const [currentSection, setCurrentSection] = useState<SectionId | null>(null);
   const navSections = useMemo(
-    () => [SectionId.About, SectionId.Testimonials, SectionId.Contact],
+    () => [SectionId.About, SectionId.Contact],
     [],
   );
   const intersectionHandler = useCallback((section: SectionId | null) => {
@@ -38,7 +38,7 @@ const DesktopNav: FC<{navSections: SectionId[]; currentSection: SectionId | null
     return (
       <header className="fixed top-0 z-50 hidden w-full bg-neutral-900/50 p-4 backdrop-blur sm:block" id={headerID}>
         <nav className="flex justify-center gap-x-8">
-          <a href="https://www.thecultureclub.us" className={inactiveClass}>
+          <a href="https://www.thecultureclub.us/home" className={inactiveClass}>
             The Culture Club
           </a>
           <a href="https://useblitz.co" className={inactiveClass}>
