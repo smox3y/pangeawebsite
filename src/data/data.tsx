@@ -62,12 +62,24 @@ Our mission is to develop accessible, inclusive, and innovative solutions using 
 
 Culture, New Media, and Impact:
 The Culture Club / Culture Club Media Commerce
+Inspiring global culture by working with the world's most creative minds to curate captivating content.
+    - Lowering barriers to entry, bringing social and financial equity to creators.
+    - Monetizing the middle class of creators at scale with our influencer network and data collection technologies.
+    - Inspiring global culture with inclusivity at our core, giving every background, culture, and story an equal playing field.
 
 Data, Creative, and Money:
 Blitz
+Blitz is a software tool designed to make digital collaborations seamless, including payouts, campaigns, and fan-engagement efforts.
+  - Users have access to the unlimited Culture Club Creator roster and can create unlimited campaign lists, find rates, and launch campaigns through the software.
+  - Blitz simplifies the Accounts Payable process for enterprise clients by initiating payouts to global contractors and entertainers, and offering a line of credit for creators to get paid within 24 hours via PayPal or Stripe.
+  - Internally, Blitz enables the Culture Club team to manage campaigns, send offers via SMS & email, and automate invoicing for clients.
 
 Productivity, Automation, AI:
-MYAH AI`,
+MYAH AI
+MYAH AI is a virtual AI personal assistant, that at its current state, handles your rolodex of contacts, helps read and write emails on your behalf, schedule meetings, and keep track of your daily life
+
+This is available, now, at MVP
+`,
   aboutItems: [
     {label: 'Location', text: 'Houston, Texas Area', Icon: MapIcon},
     {
@@ -98,47 +110,7 @@ MYAH AI`,
  * Detailed Mission and Focus Areas
  */
 const missionDetails = `
-  ## Key Areas of Focus:
-  
-  ### Culture, Media, and Money
-  - **The Culture Club / Culture Club Media Commerce / BlitzPay**
-    - Inspiring global culture by working with the world's most creative minds to curate captivating content.
-    - Lowering barriers to entry, bringing social and financial equity to creators.
-    - Monetizing the middle class of creators at scale with our influencer network and data collection technologies.
-    - Inspiring global culture with inclusivity at our core, giving every background, culture, and story an equal playing field.
-
-  ### Blitz
-  - Blitz is a software tool designed to make digital collaborations seamless, including payouts, campaigns, and fan-engagement efforts.
-  - Users have access to the unlimited Culture Club Creator roster and can create unlimited campaign lists, find rates, and launch campaigns through the software.
-  - Blitz simplifies the Accounts Payable process for enterprise clients by initiating payouts to global contractors and entertainers, and offering a line of credit for creators to get paid within 24 hours via PayPal or Stripe.
-  - Internally, Blitz enables the Culture Club team to manage campaigns, send offers via SMS & email, and automate invoicing for clients.
-
-  ### MYAH AI
-  MYAH is an integrated technology designed to enhance human productivity by automating mundane administrative tasks and adapting to users' preferences based on context.
-
-  - **Current Project Techstack**
-    - React.Js Front end
-    - Python Backend
-    - Language models
-    - Postgresql database
-    - Github Repository
-  
-  - **Project Layout:**
-    - Email and SMS automation
-    - User context framework
-    - Google calendar integration
-  
-  - **Conversations workflow and storage:**
-    - Inherit email convos using Gmail API to pull all emails and store them by unique threads.
-    - LLM to read emails, attach labels internally (spam, respond, don't respond).
-    - Email draft confirmed via SMS.
-  
-  - **Inherit SMS prompts:**
-    - Routing SMS based on user type and context.
-    - Store conversation channels as the primary thread between MYAH and the user.
-  
-  - **Opt-in Workflow:**
-    - Users are invited via SMS and must consent to SMS messaging for customer care and security reasons.
+  We are actively accelerating to a fantastic future
 `;
 
 export const missionData = missionDetails;
@@ -157,8 +129,8 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Instagram,
-      text: '@thealexroa',
-      href: 'https://www.instagram.com/thealexroa/',
+      text: '@iseeoneworld',
+      href: 'https://www.instagram.com/iseeoneworld/',
     },
   ],
 };
@@ -175,6 +147,6 @@ export const socialLinks: Social[] = [
   {
     label: 'Instagram',
     Icon: InstagramIcon,
-    href: 'https://www.instagram.com/thealexroa/',
+    href: 'https://www.instagram.com/iseeoneworld/',
   },
 ];

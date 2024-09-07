@@ -4,6 +4,7 @@ import {FC, memo} from 'react';
 import About from '../components/Sections/About';
 import Hero from '../components/Sections/Hero';
 import Page from '../components/Layout/Page';
+import Footer from '../components/Sections/Footer';
 import {homePageMeta} from '../data/data';
 
 // eslint-disable-next-line react-memo/require-memo
@@ -16,6 +17,7 @@ const Home: FC = memo(() => {
       <Header />
       <Hero />
       <About />
+      <Footer />
 
     </Page>
   );
