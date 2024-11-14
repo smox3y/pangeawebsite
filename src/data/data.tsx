@@ -56,61 +56,51 @@ export const heroData: Hero = {
  * About section
  */
 export const aboutData: About = {
-  description: `Pangea, Inc: Accelerating Humanity & Mankind
+  description: `Pangea Omninational Corporation is a venture fund and incubator committed to Accelerating Humanity & Mankind.
 
-Our mission is to develop accessible, inclusive, and innovative solutions using today's resources to advance society and create the industries of tomorrow. We aspire to unify the world through an increasingly interconnected global economy, codenamed Pangea.
+Pangea exists to foster accessible, inclusive, and impactful solutions across emerging industries, advancing society while establishing the industries of tomorrow. As a collaborative hub, we unify projects under one mission: an interconnected global economy to enhance human potential.
 
-Culture, New Media, and Impact:
-The Culture Club / Culture Club Media Commerce
-Inspiring global culture by working with the world's most creative minds to curate captivating content.
-    - Lowering barriers to entry, bringing social and financial equity to creators.
-    - Monetizing the middle class of creators at scale with our influencer network and data collection technologies.
-    - Inspiring global culture with inclusivity at our core, giving every background, culture, and story an equal playing field.
+### Investment Areas
+Culture, New Media, and Social Impact:
+The Culture Club and Culture Club Media Commerce work with global creators to curate inclusive, captivating content and establish new standards for social and financial equity across the creator economy.
 
-Data, Creative, and Money:
-Blitz
-Blitz is a software tool designed to make digital collaborations seamless, including payouts, campaigns, and fan-engagement efforts.
-  - Users have access to the unlimited Culture Club Creator roster and can create unlimited campaign lists, find rates, and launch campaigns through the software.
-  - Blitz simplifies the Accounts Payable process for enterprise clients by initiating payouts to global contractors and entertainers, and offering a line of credit for creators to get paid within 24 hours via PayPal or Stripe.
-  - Internally, Blitz enables the Culture Club team to manage campaigns, send offers via SMS & email, and automate invoicing for clients.
+Digital Economy and Collaboration Tools:
+Blitz is a software tool that streamlines digital collaborations, handling payouts, campaigns, and fan engagement. Designed to empower creators and brands, Blitz provides an integrated solution for campaign management, invoicing, and rapid payment options.
 
-Productivity, Automation, AI:
-MYAH AI
-MYAH AI is a virtual AI personal assistant, that at its current state, handles your rolodex of contacts, helps read and write emails on your behalf, schedule meetings, and keep track of your daily life
+Productivity, Automation, and AI:
+MYAH AI, a pioneering virtual assistant, manages your daily life by coordinating contacts, automating communications, and organizing schedules, bringing the power of AI to individuals and businesses alike.
 
-This is available, now, at MVP
 `,
   aboutItems: [
-    {label: 'Location', text: 'Houston, Texas Area', Icon: MapIcon},
+    { label: 'Location', text: 'Houston, Texas Area', Icon: MapIcon },
     {
       label: 'Mission',
-      text: 'Accelerating Humanity & Mankind',
+      text: 'Accelerating Humanity & Mankind through Impactful Ventures',
       Icon: AcademicCapIcon,
     },
     {
-      label: 'Culture, New Media, and Impact',
+      label: 'Culture & New Media',
       text: 'The Culture Club / Culture Club Media Commerce',
       Icon: SparklesIcon,
     },
     {
-      label: 'Data, Creative, and Money',
+      label: 'Digital Economy & Collaboration',
       text: 'Blitz',
       Icon: SparklesIcon,
     },
     {
-      label: 'Productivity, Automation, AI',
+      label: 'Productivity & AI',
       text: 'MYAH AI',
       Icon: FlagIcon,
     },
   ],
 };
 
-
 /**
- * Detailed Mission and Focus Areas
+ * Detailed Mission
  */
 const missionDetails = `
-  We are actively accelerating to a fantastic future
+  Pangea is actively shaping the industries of tomorrow through visionary projects that challenge the status quo and drive humanity forward.
 `;
 
 export const missionData = missionDetails;

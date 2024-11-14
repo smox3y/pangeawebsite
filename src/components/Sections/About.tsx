@@ -15,7 +15,7 @@ const About: FC = memo(() => {
           </div>
           <div className="col-span-1 flex flex-col gap-y-6 text-center">
             <div className="flex flex-col gap-y-2">
-              <h2 className="text-2xl font-bold text-white">The Pangean Mission</h2>
+              <h2 className="text-2xl font-bold text-white">The Pangea Mission</h2>
               <p className="prose prose-sm text-gray-300 sm:prose-base whitespace-pre-line">
                 {description}
               </p>
